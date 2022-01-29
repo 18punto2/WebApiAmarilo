@@ -293,7 +293,7 @@
             this.xrPictureBox1,
             this.xrLabel11,
             this.xrPictureBox2});
-            this.ReportHeader.HeightF = 79.82637F;
+            this.ReportHeader.HeightF = 71.49303F;
             this.ReportHeader.Name = "ReportHeader";
             // 
             // PageFooter

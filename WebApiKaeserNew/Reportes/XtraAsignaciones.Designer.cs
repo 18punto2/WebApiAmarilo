@@ -38,8 +38,8 @@
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
             this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.Titulo = new DevExpress.XtraReports.Parameters.Parameter();
             this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrLine2 = new DevExpress.XtraReports.UI.XRLine();
             this.xrLabel13 = new DevExpress.XtraReports.UI.XRLabel();
@@ -57,7 +57,7 @@
             this.repositorio1 = new WebApiKaeser.Reportes.Repositorio();
             this.get_list_AreaTableAdapter = new WebApiKaeser.Reportes.RepositorioTableAdapters.Get_list_AreaTableAdapter();
             this.get_list_TransaccionesTableAdapter1 = new WebApiKaeser.Reportes.RepositorioTableAdapters.Get_list_TransaccionesTableAdapter();
-            this.Titulo = new DevExpress.XtraReports.Parameters.Parameter();
+            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.repositorio1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
@@ -137,9 +137,9 @@
             // PageHeader
             // 
             this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrPictureBox1,
             this.xrLabel11,
-            this.xrPictureBox2,
-            this.xrPictureBox1});
+            this.xrPictureBox2});
             this.PageHeader.HeightF = 79.16666F;
             this.PageHeader.Name = "PageHeader";
             // 
@@ -155,6 +155,11 @@
             this.xrLabel11.StylePriority.UseTextAlignment = false;
             this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
+            // Titulo
+            // 
+            this.Titulo.Description = "Titulo del reporte";
+            this.Titulo.Name = "Titulo";
+            // 
             // xrPictureBox2
             // 
             this.xrPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox2.Image")));
@@ -162,14 +167,6 @@
             this.xrPictureBox2.Name = "xrPictureBox2";
             this.xrPictureBox2.SizeF = new System.Drawing.SizeF(157.0833F, 70.00001F);
             this.xrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            // 
-            // xrPictureBox1
-            // 
-            this.xrPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox1.Image")));
-            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(24.25F, 0F);
-            this.xrPictureBox1.Name = "xrPictureBox1";
-            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(158.75F, 70F);
-            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             // 
             // GroupHeader1
             // 
@@ -325,10 +322,13 @@
             // 
             this.get_list_TransaccionesTableAdapter1.ClearBeforeFill = true;
             // 
-            // Titulo
+            // xrPictureBox1
             // 
-            this.Titulo.Description = "Titulo del reporte";
-            this.Titulo.Name = "Titulo";
+            this.xrPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox1.Image")));
+            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(11.91679F, 1.589457E-05F);
+            this.xrPictureBox1.Name = "xrPictureBox1";
+            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(158.75F, 70F);
+            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             // 
             // XtraAsignaciones
             // 
@@ -360,7 +360,6 @@
         private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
         private DevExpress.XtraReports.UI.XRLabel xrLabel11;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox2;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader2;
         private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
@@ -383,5 +382,6 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel14;
         private DevExpress.XtraReports.UI.XRLabel xrLabel7;
         private DevExpress.XtraReports.Parameters.Parameter Titulo;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
     }
 }

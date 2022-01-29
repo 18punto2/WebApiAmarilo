@@ -33,7 +33,6 @@
             this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
@@ -50,6 +49,7 @@
             this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
             this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
             this.get_list_ModeloTableAdapter = new WebApiKaeser.Reportes.RepositorioTableAdapters.Get_list_ModeloTableAdapter();
+            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.repositorio1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
@@ -89,23 +89,15 @@
             // xrPictureBox2
             // 
             this.xrPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox2.Image")));
-            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(584.2083F, 9.999974F);
+            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(584.2083F, 0F);
             this.xrPictureBox2.Name = "xrPictureBox2";
             this.xrPictureBox2.SizeF = new System.Drawing.SizeF(157.0833F, 70.00001F);
             this.xrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             // 
-            // xrPictureBox1
-            // 
-            this.xrPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox1.Image")));
-            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(10F, 9.999974F);
-            this.xrPictureBox1.Name = "xrPictureBox1";
-            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(158.75F, 70F);
-            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            // 
             // xrLabel11
             // 
             this.xrLabel11.Font = new System.Drawing.Font("Calibri", 22F, System.Drawing.FontStyle.Bold);
-            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(168.75F, 27.83335F);
+            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(168.75F, 10.00001F);
             this.xrLabel11.Name = "xrLabel11";
             this.xrLabel11.SizeF = new System.Drawing.SizeF(415.4583F, 34.58334F);
             this.xrLabel11.StylePriority.UseFont = false;
@@ -198,7 +190,7 @@
             this.xrPictureBox1,
             this.xrLabel11,
             this.xrPictureBox2});
-            this.ReportHeader.HeightF = 84.16666F;
+            this.ReportHeader.HeightF = 70.00001F;
             this.ReportHeader.Name = "ReportHeader";
             // 
             // PageFooter
@@ -245,6 +237,14 @@
             // 
             this.get_list_ModeloTableAdapter.ClearBeforeFill = true;
             // 
+            // xrPictureBox1
+            // 
+            this.xrPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox1.Image")));
+            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrPictureBox1.Name = "xrPictureBox1";
+            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(158.75F, 70F);
+            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
             // XtraModelo
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -275,7 +275,6 @@
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel1;
         private DevExpress.XtraReports.UI.XRLine xrLine1;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox2;
         private DevExpress.XtraReports.UI.XRLine xrLine2;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader2;
@@ -288,5 +287,6 @@
         private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo2;
         private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo1;
         private RepositorioTableAdapters.Get_list_ModeloTableAdapter get_list_ModeloTableAdapter;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
     }
 }
