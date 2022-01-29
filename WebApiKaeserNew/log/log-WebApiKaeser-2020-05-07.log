@@ -1,0 +1,3 @@
+2020-05-07 11:04:29.4788|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisosMenu: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-07 11:10:49.9693|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_UsuariosArea: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-07 11:27:49.2307|ERROR|WebApiKaeser.Factory.BaseDataBase|Sql error en Get_list_CentroCosto:Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.

@@ -1,0 +1,4 @@
+2020-12-16 16:39:29.1737|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-16 16:39:45.3028|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-16 16:40:18.3563|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Set_Editar_EMPRESA: El procedimiento o la función 'Set_Editar_EMPRESA' esperaba el parámetro '@EMP_DESC', que no se ha especificado.
+2020-12-16 16:41:28.0556|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Set_Editar_EMPRESA: El procedimiento o la función 'Set_Editar_EMPRESA' esperaba el parámetro '@EMP_SMTP_REM', que no se ha especificado.

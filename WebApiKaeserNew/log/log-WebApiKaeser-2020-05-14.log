@@ -1,0 +1,7 @@
+2020-05-14 09:29:41.4917|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: La conversión especificada no es válida.
+2020-05-14 09:30:25.8320|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: La conversión especificada no es válida.
+2020-05-14 09:30:53.2777|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: La conversión especificada no es válida.
+2020-05-14 09:33:07.7421|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: La conversión especificada no es válida.
+2020-05-14 09:34:52.3283|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: Error de lectura porque no hay datos.
+2020-05-14 09:46:58.6126|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: Error de lectura porque no hay datos.
+2020-05-14 14:05:02.3214|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_Activos_Transacciones: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.

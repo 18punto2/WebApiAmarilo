@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C3CF74A-E50A-423D-9BFB-59E57FC240A7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApiKaeser</RootNamespace>
+    <AssemblyName>WebApiKaeser</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\..\..\Fuente\WebApiKaeser\lib\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v14.2.Core, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.2, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.2.Web, Version=14.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Entidades">
+      <HintPath>..\..\..\..\..\NEXA\SIEP_WEB\Web_Votorantim\Entidades\bin\Debug\Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.8\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\..\Fuente\WebApiKaeser\lib\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\bowser.min.js" />
+    <Content Include="Visor.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AsignacionController.cs" />
+    <Compile Include="Controllers\AuditoriaController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ConfiguracionController.cs" />
+    <Compile Include="Controllers\DashBoardController.cs" />
+    <Compile Include="Controllers\FileuploadController.cs" />
+    <Compile Include="Controllers\IngresosController.cs" />
+    <Compile Include="Controllers\SalidasController.cs" />
+    <Compile Include="Controllers\SeguridadController.cs" />
+    <Compile Include="Controllers\ServicioTecnicoController.cs" />
+    <Compile Include="Controllers\TransaccionController.cs" />
+    <Compile Include="Controllers\TrasladoController.cs" />
+    <Compile Include="Factory\AsignacionDataBase.cs" />
+    <Compile Include="Factory\AuditoriaDataBase.cs" />
+    <Compile Include="Factory\BaseDataBase.cs" />
+    <Compile Include="Factory\ConfiguracionDataBase.cs" />
+    <Compile Include="Factory\InformesDataBase.cs" />
+    <Compile Include="Factory\IngresoDataBase.cs" />
+    <Compile Include="Factory\SalidasDataBase.cs" />
+    <Compile Include="Factory\SeguridadDataBase.cs" />
+    <Compile Include="Factory\ServicioTecnicoDataBase.cs" />
+    <Compile Include="Factory\TransaccionDataBase.cs" />
+    <Compile Include="Factory\TrasladoDataBase.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Helper.cs" />
+    <Compile Include="Interfaces\IAsignacion.cs" />
+    <Compile Include="Interfaces\IAuditoria.cs" />
+    <Compile Include="Interfaces\Ibase.cs" />
+    <Compile Include="Interfaces\IConfiguracion.cs" />
+    <Compile Include="Interfaces\Iinformes.cs" />
+    <Compile Include="Interfaces\IIngresos.cs" />
+    <Compile Include="Interfaces\ISalidas.cs" />
+    <Compile Include="Interfaces\ISeguridad.cs" />
+    <Compile Include="Interfaces\IServicioTecnico.cs" />
+    <Compile Include="Interfaces\ITransaccion.cs" />
+    <Compile Include="Interfaces\ITraslado.cs" />
+    <Compile Include="Models\ActivoDisponible.cs" />
+    <Compile Include="Models\Activos.cs" />
+    <Compile Include="Models\ActivosCambio.cs" />
+    <Compile Include="Models\ActivosImagenes.cs" />
+    <Compile Include="Models\ActivoValoresCaracteristicas.cs" />
+    <Compile Include="Models\AreaResponsable.cs" />
+    <Compile Include="Models\Areas.cs" />
+    <Compile Include="Models\Auditoria.cs" />
+    <Compile Include="Models\AuditoriaCaptura.cs" />
+    <Compile Include="Models\AuditoriaConsultaDetalle.cs" />
+    <Compile Include="Models\AuditoriaDetalle.cs" />
+    <Compile Include="Models\AuditoriaToma.cs" />
+    <Compile Include="Models\AuditoriaTomaDatos.cs" />
+    <Compile Include="Models\AuditoriaUsuario.cs" />
+    <Compile Include="Models\Caracteristica.cs" />
+    <Compile Include="Models\CaracteristicaValores.cs" />
+    <Compile Include="Models\CentroCosto.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Contratos.cs" />
+    <Compile Include="Models\Dasboard.cs" />
+    <Compile Include="Models\Empresa.cs" />
+    <Compile Include="Models\Estados.cs" />
+    <Compile Include="Models\Garantias.cs" />
+    <Compile Include="Models\IngresoActivo.cs" />
+    <Compile Include="Models\ListaDesplegable.cs" />
+    <Compile Include="Models\Mensaje.cs" />
+    <Compile Include="Models\Menus.cs" />
+    <Compile Include="Models\MetrosCuadrados.cs" />
+    <Compile Include="Models\Modelo.cs" />
+    <Compile Include="Models\ModeloValoresCaracteristicas.cs" />
+    <Compile Include="Models\Nodos.cs" />
+    <Compile Include="Models\Proveedor.cs" />
+    <Compile Include="Models\RentaFlota.cs" />
+    <Compile Include="Models\Reply.cs" />
+    <Compile Include="Models\Responsable.cs" />
+    <Compile Include="Models\Rol.cs" />
+    <Compile Include="Models\Seleccion.cs" />
+    <Compile Include="Models\SeleccionActivoToma.cs" />
+    <Compile Include="Models\ServicioTecnico.cs" />
+    <Compile Include="Models\ServicioTecnicoImagen.cs" />
+    <Compile Include="Models\ServicioTecnicoIncidencia.cs" />
+    <Compile Include="Models\ServicioTecnicoInforme.cs" />
+    <Compile Include="Models\ServicioTecnicoRepuesto.cs" />
+    <Compile Include="Models\TipoActivo.cs" />
+    <Compile Include="Models\TipoActivoArea.cs" />
+    <Compile Include="Models\TipoActivoCaracteristicas.cs" />
+    <Compile Include="Models\TipoArea.cs" />
+    <Compile Include="Models\Transaccion.cs" />
+    <Compile Include="Models\TransaccionDetalle.cs" />
+    <Compile Include="Models\TrasladoActivo.cs" />
+    <Compile Include="Models\URL.cs" />
+    <Compile Include="Models\UsuarioArea.cs" />
+    <Compile Include="Models\Usuarios.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\Repositorio.cs">
+      <DependentUpon>Repositorio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Repositorio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Repositorio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraActas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraActas.Designer.cs">
+      <DependentUpon>XtraActas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraActivos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraActivos.Designer.cs">
+      <DependentUpon>XtraActivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraArea.Designer.cs">
+      <DependentUpon>XtraArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraAuditoria.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraAuditoria.Designer.cs">
+      <DependentUpon>XtraAuditoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraAuditoriaNew.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraAuditoriaNew.Designer.cs">
+      <DependentUpon>XtraAuditoriaNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraCaracteristica.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraCaracteristica.Designer.cs">
+      <DependentUpon>XtraCaracteristica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraCentroCosto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraCentroCosto.Designer.cs">
+      <DependentUpon>XtraCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraClientes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraClientes.Designer.cs">
+      <DependentUpon>XtraClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraContratos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraContratos.Designer.cs">
+      <DependentUpon>XtraContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraDevolucion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraDevolucion.Designer.cs">
+      <DependentUpon>XtraDevolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraDotaciones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraDotaciones.Designer.cs">
+      <DependentUpon>XtraDotaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeActivos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeActivos.Designer.cs">
+      <DependentUpon>XtraInformeActivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeEtiqueta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeEtiqueta.Designer.cs">
+      <DependentUpon>XtraInformeEtiqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeMetros2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeMetros2.Designer.cs">
+      <DependentUpon>XtraInformeMetros2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraInformePrestamo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraInformePrestamo.Designer.cs">
+      <DependentUpon>XtraInformePrestamo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeSertec.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraInformeSertec.Designer.cs">
+      <DependentUpon>XtraInformeSertec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraModelo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraModelo.Designer.cs">
+      <DependentUpon>XtraModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraProveedor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraProveedor.Designer.cs">
+      <DependentUpon>XtraProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraRenta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraRenta.Designer.cs">
+      <DependentUpon>XtraRenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraAsignaciones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraAsignaciones.Designer.cs">
+      <DependentUpon>XtraAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraReporteEquipoDisponible.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraReporteEquipoDisponible.Designer.cs">
+      <DependentUpon>XtraReporteEquipoDisponible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraResponsables.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraResponsables.Designer.cs">
+      <DependentUpon>XtraResponsables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraRoles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraRoles.Designer.cs">
+      <DependentUpon>XtraRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraServicioTecnico.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraServicioTecnico.Designer.cs">
+      <DependentUpon>XtraServicioTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraTipoDeActivo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraTipoDeActivo.Designer.cs">
+      <DependentUpon>XtraTipoDeActivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraTransaccion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraTransaccion.Designer.cs">
+      <DependentUpon>XtraTransaccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraTraslado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraTraslado.Designer.cs">
+      <DependentUpon>XtraTraslado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraUsuarios.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraUsuarios.Designer.cs">
+      <DependentUpon>XtraUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visor.aspx.cs">
+      <DependentUpon>Visor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visor.aspx.designer.cs">
+      <DependentUpon>Visor.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reportes\Repositorio.xsc">
+      <DependentUpon>Repositorio.xsd</DependentUpon>
+    </Content>
+    <Content Include="NLog.config" />
+    <None Include="Properties\PublishProfiles\RPalacios.pubxml" />
+    <None Include="Reportes\Repositorio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Repositorio.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Reportes\Repositorio.xss">
+      <DependentUpon>Repositorio.xsd</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ARCHIVOS\" />
+    <Folder Include="PHOTO\" />
+    <Folder Include="PHOTO_ACTIVO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reportes\XtraActas.resx">
+      <DependentUpon>XtraActas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraActivos.resx">
+      <DependentUpon>XtraActivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraArea.resx">
+      <DependentUpon>XtraArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraAuditoria.resx">
+      <DependentUpon>XtraAuditoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraAuditoriaNew.resx">
+      <DependentUpon>XtraAuditoriaNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraCaracteristica.resx">
+      <DependentUpon>XtraCaracteristica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraCentroCosto.resx">
+      <DependentUpon>XtraCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraClientes.resx">
+      <DependentUpon>XtraClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraContratos.resx">
+      <DependentUpon>XtraContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraDevolucion.resx">
+      <DependentUpon>XtraDevolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraDotaciones.resx">
+      <DependentUpon>XtraDotaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraInformeActivos.resx">
+      <DependentUpon>XtraInformeActivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraInformeEtiqueta.resx">
+      <DependentUpon>XtraInformeEtiqueta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraInformeMetros2.resx">
+      <DependentUpon>XtraInformeMetros2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraInformePrestamo.resx">
+      <DependentUpon>XtraInformePrestamo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraInformeSertec.resx">
+      <DependentUpon>XtraInformeSertec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraModelo.resx">
+      <DependentUpon>XtraModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraProveedor.resx">
+      <DependentUpon>XtraProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraRenta.resx">
+      <DependentUpon>XtraRenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraAsignaciones.resx">
+      <DependentUpon>XtraAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraReporteEquipoDisponible.resx">
+      <DependentUpon>XtraReporteEquipoDisponible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraResponsables.resx">
+      <DependentUpon>XtraResponsables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraRoles.resx">
+      <DependentUpon>XtraRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraServicioTecnico.resx">
+      <DependentUpon>XtraServicioTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraTipoDeActivo.resx">
+      <DependentUpon>XtraTipoDeActivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraTransaccion.resx">
+      <DependentUpon>XtraTransaccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraTraslado.resx">
+      <DependentUpon>XtraTraslado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraUsuarios.resx">
+      <DependentUpon>XtraUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>30059</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/WebApiKaeser</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

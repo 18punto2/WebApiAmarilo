@@ -1,0 +1,4 @@
+2020-11-13 14:53:15.3138|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_Roles: La función o el procedimiento Get_list_Roles tiene demasiados argumentos.
+2020-11-13 14:53:57.7434|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_Roles: La función o el procedimiento Get_list_Roles tiene demasiados argumentos.
+2020-11-13 14:54:50.6601|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_Roles: La función o el procedimiento Get_list_Roles tiene demasiados argumentos.
+2020-11-13 14:59:12.4426|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_Roles: La función o el procedimiento Get_list_Roles tiene demasiados argumentos.

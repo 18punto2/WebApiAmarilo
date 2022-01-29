@@ -1,0 +1,36 @@
+2020-05-20 09:49:58.5496|ERROR|WebApiKaeser.Factory.BaseDataBase|Sql error en Get_list_activosValor: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-20 14:35:43.5358|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisosMenu: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Controlador no válido.)
+2020-05-20 14:35:43.5358|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisos: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Controlador no válido.)
+2020-05-20 14:36:10.0085|ERROR|WebApiKaeser.Factory.BaseDataBase|Sql error en Get_list_CentroCosto:Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-20 14:36:30.3692|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 14:36:30.3692|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 14:36:30.4171|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 14:36:30.4171|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: No se puede encontrar una parte de la ruta de acceso 'D:\\ARCHIVOS\'.:D:\\ARCHIVOS\
+2020-05-20 14:38:28.6284|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 14:38:33.1542|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 14:38:35.0252|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 14:40:17.7844|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: No se puede encontrar una parte de la ruta de acceso 'D:\\ARCHIVOS\'.:D:\\ARCHIVOS\
+2020-05-20 14:41:58.1748|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 14:41:58.1818|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 14:41:58.1818|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 14:46:29.0942|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: No se puede encontrar una parte de la ruta de acceso 'D:\\ARCHIVOS\'.:D:\\ARCHIVOS\
+2020-05-20 14:47:17.8022|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisosMenu: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-20 14:48:20.4744|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisos: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-20 14:48:21.5384|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisosMenu: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-20 14:48:24.9623|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_list_permisos: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-20 14:55:41.3706|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 14:55:41.4066|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 14:55:41.4596|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 14:57:07.7094|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: Referencia a objeto no establecida como instancia de un objeto.:
+2020-05-20 14:58:03.6967|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 14:58:03.7357|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 14:58:03.7827|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 14:58:28.7274|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: No se puede encontrar una parte de la ruta de acceso 'D:\\ARCHIVOS\'.:D:\\ARCHIVOS\
+2020-05-20 16:41:14.7897|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 16:41:14.8287|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 16:41:14.8667|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 16:41:26.4631|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: No se puede encontrar una parte de la ruta de acceso 'D:\\ARCHIVOS\'.:D:\\ARCHIVOS\
+2020-05-20 16:42:22.2874|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 1: D:\\ARCHIVOS
+2020-05-20 16:42:22.2874|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 2: 
+2020-05-20 16:42:22.2914|ERROR|WebApiKaeser.Controllers.TransaccionController|Traza 3: 
+2020-05-20 16:42:39.4088|ERROR|WebApiKaeser.Controllers.TransaccionController|Cargar excel: No se puede encontrar una parte de la ruta de acceso 'D:\\ARCHIVOS\'.:D:\\ARCHIVOS\

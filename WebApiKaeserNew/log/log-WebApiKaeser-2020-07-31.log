@@ -1,0 +1,12 @@
+2020-07-31 12:51:37.0605|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:52:54.7717|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:53:32.5834|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:53:36.4703|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:53:41.7851|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:54:46.2878|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:59:12.9985|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:59:33.6748|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 12:59:47.6798|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 13:02:00.2878|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 13:02:42.5184|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_Informe_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@FECHA_INI'.
+2020-07-31 13:13:07.5114|ERROR|WebApiKaeser.Factory.InformesDataBase|Sql error en Get_list_InformesPersonalizados_MetrosCuadrados: El procedimiento o la función 'Get_list_InformesPersonalizados_MetrosCuadrados' esperaba el parámetro '@FechaFin', que no se ha especificado.

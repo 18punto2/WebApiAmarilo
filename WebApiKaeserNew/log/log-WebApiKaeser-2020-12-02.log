@@ -1,0 +1,5 @@
+2020-12-02 16:33:45.9970|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-02 16:41:59.4101|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_LOGIN', que no se ha especificado.
+2020-12-02 16:46:44.3951|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-02 16:54:16.6038|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-02 17:28:31.6354|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_LOGIN', que no se ha especificado.

@@ -1,0 +1,10 @@
+2020-06-04 10:42:55.9078|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Get_list_TomaDatosPor_Auditoria: La conversión especificada no es válida.
+2020-06-04 12:02:02.1687|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Sql error en Set_Ajuste_Auditoria: Se denegó el permiso EXECUTE en el objeto 'Set_Ajuste_Auditoria', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-06-04 12:52:34.2390|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Set_CrearAuditoriaImagenes: La conversión especificada no es válida.
+2020-06-04 12:55:31.3911|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Set_CrearAuditoriaImagenes: La conversión especificada no es válida.
+2020-06-04 14:08:50.4408|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@ACT_FECHA_MOD'.
+2020-06-04 14:09:28.9983|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@ACT_FECHA_MOD'.
+2020-06-04 14:09:50.3600|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@ACT_FECHA_MOD'.
+2020-06-04 14:09:53.9887|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@ACT_FECHA_MOD'.
+2020-06-04 14:11:02.6744|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@ACT_FECHA_MOD'.
+2020-06-04 14:11:24.1916|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_activos: SqlParameterCollection no contiene SqlParameter con ParameterName '@ACT_FECHA_MOD'.

@@ -1,0 +1,2 @@
+2020-06-18 12:43:19.9327|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Sql error en Set_Eliminar_Auditoria: Se denegó el permiso EXECUTE en el objeto 'Set_Eliminar_Auditoria', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-06-18 13:23:18.5975|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Sql error en Set_SeleccionarActivos_Toma: Se denegó el permiso EXECUTE en el objeto 'Set_SeleccionarActivos_Toma', base de datos 'Assets', esquema 'NEGOCIO'.

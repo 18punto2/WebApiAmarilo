@@ -1,0 +1,12 @@
+2020-05-15 10:38:03.9973|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Set_CrearServicioTecnicoImagenes: La conversión especificada no es válida.
+2020-05-15 11:40:57.0018|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicov2: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-15 11:53:08.7723|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: La conversión especificada no es válida.
+2020-05-15 11:54:16.1061|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: La conversión especificada no es válida.
+2020-05-15 11:54:18.3458|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: La conversión especificada no es válida.
+2020-05-15 11:55:27.8510|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: La conversión especificada no es válida.
+2020-05-15 11:57:45.1863|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: La conversión especificada no es válida.
+2020-05-15 11:59:55.9343|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.
+2020-05-15 12:00:36.5365|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.
+2020-05-15 12:40:26.4872|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.
+2020-05-15 13:04:52.5465|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicoImagen: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-15 13:09:04.4091|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicoImagen: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.

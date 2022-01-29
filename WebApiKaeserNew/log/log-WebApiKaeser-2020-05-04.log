@@ -1,0 +1,10 @@
+2020-05-04 17:39:53.7690|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Sql error en Get_list_PrevisualizacionAuditoria: El procedimiento o la función 'Get_list_PrevisualizacionAuditoria' esperaba el parámetro '@AUD_ID', que no se ha especificado.
+2020-05-04 19:02:22.6455|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_Activos_Cambios: Se denegó el permiso EXECUTE en el objeto 'Get_list_Activos_Cambios', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-04 19:04:48.0527|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_Activos_Cambios: Se denegó el permiso EXECUTE en el objeto 'Get_list_Activos_Cambios', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-04 19:06:46.8905|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_Activos_Transacciones: Se denegó el permiso EXECUTE en el objeto 'Get_list_Activos_Transacciones', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-04 19:15:30.3425|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicov2: Sintaxis incorrecta cerca de la palabra clave 'AND'.
+2020-05-04 19:16:08.4767|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_Activos_Transacciones: Se denegó el permiso EXECUTE en el objeto 'Get_list_Activos_Transacciones', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-04 19:16:21.7621|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_Activos_Cambios: Se denegó el permiso EXECUTE en el objeto 'Get_list_Activos_Cambios', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-04 19:17:08.4502|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicov2: Sintaxis incorrecta cerca de la palabra clave 'AND'.
+2020-05-04 19:17:35.1045|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicov2: Sintaxis incorrecta cerca de la palabra clave 'AND'.
+2020-05-04 19:21:17.3079|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Sql error en Get_list_ServicioTecnicov2: Sintaxis incorrecta cerca de la palabra clave 'AND'.

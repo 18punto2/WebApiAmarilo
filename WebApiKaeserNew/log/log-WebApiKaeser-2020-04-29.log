@@ -1,0 +1,1 @@
+2020-04-29 12:46:05.3171|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Sql error en Get_list_Auditorias: El procedimiento o la función 'Get_list_Auditoria_detalle' esperaba el parámetro '@AUD_ID', que no se ha especificado.

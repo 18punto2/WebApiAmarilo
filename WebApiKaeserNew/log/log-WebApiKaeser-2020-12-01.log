@@ -1,0 +1,2 @@
+2020-12-01 17:13:17.9276|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Set_Eliminar_ActivosImagenes: Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.
+2020-12-01 17:18:45.3226|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Set_Eliminar_ActivosImagenes: Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.

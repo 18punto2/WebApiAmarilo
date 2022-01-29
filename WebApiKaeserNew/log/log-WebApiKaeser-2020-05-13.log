@@ -1,0 +1,14 @@
+2020-05-13 11:00:06.5563|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Get_list_Asignaciones_SinNotificar: Se denegó el permiso EXECUTE en el objeto 'Get_list_Asignaciones_SinNotificar', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:00:12.0884|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Get_list_transacciones_SinNotificar: Se denegó el permiso EXECUTE en el objeto 'Get_list_transacciones_SinNotificar', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:01:19.4670|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Get_list_transacciones_SinNotificar: Se denegó el permiso EXECUTE en el objeto 'Get_list_transacciones_SinNotificar', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:02:15.0741|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Get_list_Asignaciones_SinNotificar: Se denegó el permiso EXECUTE en el objeto 'Get_list_Asignaciones_SinNotificar', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:05:17.0058|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Get_list_emai_autorizados: Se denegó el permiso EXECUTE en el objeto 'Get_list_emai_autorizados', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:06:17.4063|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Get_list_EMPRESA: Se denegó el permiso EXECUTE en el objeto 'Get_list_EMPRESA', base de datos 'Assets', esquema 'BASE'.
+2020-05-13 11:13:37.3869|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Set_Asignaciones_notificada: Se denegó el permiso EXECUTE en el objeto 'Set_Asignaciones_notificada', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:19:59.6992|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Set_Transaccion_notificada: Se denegó el permiso EXECUTE en el objeto 'Set_Transaccion_notificada', base de datos 'Assets', esquema 'NEGOCIO'.
+2020-05-13 11:51:27.5765|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Error en Set_Editar_EMPRESA: Error al convertir el valor del parámetro de String a Boolean.
+2020-05-13 11:52:46.4694|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Error en Set_Editar_EMPRESA: Error al convertir el valor del parámetro de String a Boolean.
+2020-05-13 11:54:43.2376|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Error en Set_Editar_EMPRESA: Error al convertir el valor del parámetro de String a Boolean.
+2020-05-13 11:59:56.7854|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Set_Editar_EMPRESA: Se denegó el permiso EXECUTE en el objeto 'Set_Editar_EMPRESA', base de datos 'Assets', esquema 'BASE'.
+2020-05-13 12:00:38.7323|ERROR|WebApiKaeser.Factory.ConfiguracionDataBase|Sql error en Set_Editar_EMPRESA: Se denegó el permiso EXECUTE en el objeto 'Set_Editar_EMPRESA', base de datos 'Assets', esquema 'BASE'.
+2020-05-13 17:37:10.6380|ERROR|WebApiKaeser.Factory.ServicioTecnicoDataBase|Error en Get_list_ServicioTecnicoRepuesto: La conversión especificada no es válida.

@@ -1,0 +1,6 @@
+2020-08-11 16:08:56.8366|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Error en Get_list_Activos_Cambios: Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.
+2020-08-11 16:12:46.6268|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_InformesPersonalizados_MetrosCuadrados: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.
+2020-08-11 16:12:51.6413|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_InformesPersonalizados_MetrosCuadrados: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.
+2020-08-11 16:12:56.7108|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_InformesPersonalizados_MetrosCuadrados: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.
+2020-08-11 16:13:02.2688|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_InformesPersonalizados_MetrosCuadrados: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.
+2020-08-11 16:13:09.5675|ERROR|WebApiKaeser.Factory.InformesDataBase|Error en Get_list_InformesPersonalizados_MetrosCuadrados: No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.

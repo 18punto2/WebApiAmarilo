@@ -1,0 +1,4 @@
+2020-09-14 14:11:04.4260|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Get_listar_AuditoriaImagenes: SqlParameterCollection no contiene SqlParameter con ParameterName '@AIM_ACT_ID'.
+2020-09-14 14:12:22.0658|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Get_listar_AuditoriaImagenes: SqlParameterCollection no contiene SqlParameter con ParameterName '@AIM_ACT_ID'.
+2020-09-14 14:13:26.0220|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Get_listar_AuditoriaImagenes: SqlParameterCollection no contiene SqlParameter con ParameterName '@AIM_ACT_ID'.
+2020-09-14 14:14:09.1765|ERROR|WebApiKaeser.Factory.AuditoriaDataBase|Error en Get_listar_AuditoriaImagenes: SqlParameterCollection no contiene SqlParameter con ParameterName '@AIM_ACT_ID'.

@@ -1,0 +1,10 @@
+2020-12-04 10:49:11.4832|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-04 11:28:11.6297|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_PASS', que no se ha especificado.
+2020-12-04 11:29:08.6782|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_PASS', que no se ha especificado.
+2020-12-04 11:29:12.1756|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_PASS', que no se ha especificado.
+2020-12-04 11:59:45.4228|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_LOGIN', que no se ha especificado.
+2020-12-04 12:16:52.9818|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: El procedimiento o la función 'Get_validar_usuarios' esperaba el parámetro '@USU_LOGIN', que no se ha especificado.
+2020-12-04 12:17:43.6496|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-04 12:17:49.6415|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-04 12:29:01.8361|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Error en Get_validar_usuarios: La conversión especificada no es válida.
+2020-12-04 12:40:31.0287|ERROR|WebApiKaeser.Factory.IngresoDataBase|Sql error en Get_list_EstadosTransacciones: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)

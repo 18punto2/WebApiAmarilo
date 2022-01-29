@@ -1,0 +1,3 @@
+2020-05-26 11:49:43.4032|ERROR|WebApiKaeser.Factory.BaseDataBase|Sql error en Get_list_Area: No se encontró el procedimiento almacenado 'NEGOCIO.Get_list_Areav2'.
+2020-05-26 12:15:42.7659|ERROR|WebApiKaeser.Factory.SeguridadDataBase|Sql error en Get_validar_usuarios: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+2020-05-26 12:57:50.4251|ERROR|WebApiKaeser.Factory.TransaccionDataBase|Sql error en Get_list_activos: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se ha forzado la interrupción de una conexión existente por el host remoto.)
